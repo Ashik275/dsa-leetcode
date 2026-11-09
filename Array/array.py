@@ -37,12 +37,17 @@ from array import *
 
 
 ## taking input from user
-arr =array('i',[]);
+    # arr =array('i',[]);
 
-n= int(input("Enter A number "));
+    # n= int(input("Enter A number "));
 
-for i in range(0,n):
-    arr.append(int(input('Enter Next input ')));
+    # for i in range(0,n):
+    #     arr.append(int(input('Enter Next input ')));
 
-for num in arr :
-    print(num);
+    # for num in arr :
+    #     print(num);
+
+## searching in an array
+    # arr= array('i',[8,3,4,5,6,78,88])
+    # i = arr.index(78)
+    # print(i);
