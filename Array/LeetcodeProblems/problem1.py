@@ -11,7 +11,7 @@
 class Solution:
     def twoSum(self,nums,target):
         mydict ={}
-
+  
         for i in range(len(nums)):
             if target-nums[i]  in mydict:
                 return (i,mydict[target-nums[i]])

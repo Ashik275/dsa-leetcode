@@ -19,7 +19,6 @@ class Solution:
             # যদি দুটো element সমান না হয়,
             # তাহলে বুঝব নতুন একটি unique element পাওয়া গেছে
             if nums[j] != nums[j - 1]:
-
                 # নতুন unique element-টি nums[k] index-এ রাখছি
                 # অর্থাৎ duplicate element বাদ দিয়ে
                 # unique element-গুলো সামনে সাজাচ্ছি
